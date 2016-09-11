@@ -16,6 +16,6 @@ add_action( 'plugins_loaded', 'clea_plugin_boilerplate_load_plugin_textdomain' )
  
 function clea_plugin_boilerplate_load_plugin_textdomain() {
 	
-    load_plugin_textdomain( 'clea-plugin-boilerplate', FALSE, CLEA_PLUGIN_BOILERPLATE_BASENAME . '/languages/' );
+    load_plugin_textdomain( 'clea-plugin-boilerplate', FALSE, dirname( CLEA_PLUGIN_BOILERPLATE_BASENAME ) . '/languages' );
 	
 }

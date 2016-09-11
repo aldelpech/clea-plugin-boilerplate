@@ -10,7 +10,7 @@
 * Text Domain: clea-plugin-boilerplate
 * 
 * @package		clea-plugin-boilerplate
-* @version		0.3.0
+* @version		1.0
 * @author 		Anne-Laure Delpech
 * @copyright 	Copyright (c) 2016 Anne-Laure Delpech
 * @link			https://github.com/aldelpech/CLEA-presentation

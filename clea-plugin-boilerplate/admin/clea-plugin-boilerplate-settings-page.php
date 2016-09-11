@@ -1,7 +1,7 @@
-<?php
+ï»¿<?php
 /**
  *
- * Créer une page de settings pour l'extension
+ * CrÃ©er une page de settings pour l'extension
 
  *
  * @link       	
@@ -43,9 +43,9 @@ function clea_plugin_boilerplate_admin_menu() {
 	
     add_options_page( 
 		__('Options de Clea Add Button', 'clea-plugin-boilerplate' ),	// page title (H1)	
-		__('Add Button', 'clea-plugin-boilerplate' ),						// menu title
-		'manage_options', 										// required capability
-		'clea-plugin-boilerplate', 											// menu slug (unique ID)
+		__('Clea plugin boilerplate', 'clea-plugin-boilerplate' ),		// menu title
+		'manage_options', 												// required capability
+		'clea-plugin-boilerplate', 										// menu slug (unique ID)
 		'clea_plugin_boilerplate_options_page' );						// callback function
 }
 
@@ -182,7 +182,7 @@ function clea_plugin_boilerplate_settings_field_callback( $arguments  ) {
 	
     if( isset( $arguments['helper'] ) && $helper = $arguments['helper'] ){
 
-		printf( '<span class="helper" data-descr="%2$s"><img src="%1$s/images/question-mark.png" class="alignleft" id="helper" alt="help" data-pin-nopin="true"></span>',CLEA_PLUGIN_BOILERPLATE_DIR_URL, $helper ) ;
+		printf( '<span class="helper" data-descr="%2$s"><img src="%1$simages/question-mark.png" class="alignleft" id="helper" alt="help" data-pin-nopin="true"></span>',CLEA_PLUGIN_BOILERPLATE_DIR_URL, $helper ) ;
     }
 	
 	// If there is a description
@@ -214,7 +214,7 @@ function clea_plugin_boilerplate_settings_field_callback( $arguments  ) {
 			echo "</select>";	
 			
 			} else {
-				echo __( 'Indiquer les options dans la définition du champs', 'clea-plugin-boilerplate' ) ;
+				echo __( 'Indiquer les options dans la dÃ©finition du champs', 'clea-plugin-boilerplate' ) ;
 			}
 			break;
 
